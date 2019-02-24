@@ -1,16 +1,13 @@
-# AWS Autoscaling Template
+# AWS Networking Template
 
-[![Build Status](https://travis-ci.org/royge/terraform-aws-autoscaling.svg?branch=master)](https://travis-ci.org/royge/terraform-aws-autoscaling)
-
-**WARNING:** You are fully aware that AWS resources created by this template
-are not always free even during tests.
+[![Build Status](https://travis-ci.org/royge/terraform-aws-networking.svg?branch=master)](https://travis-ci.org/royge/terraform-aws-networking)
 
 ## Getting Started
 
 1. Clone the repo
 
     ```
-    $ git clone git@github.com:royge/terraform-aws-autoscaling.git
+    $ git clone git@github.com:royge/terraform-aws-networking.git
     ```
 
 1. Install [terraform](https://www.terraform.io/downloads.html)
@@ -49,4 +46,3 @@ are not always free even during tests.
 ## TODO
 
 1. Unit testing docs.
-1. Make `userdata.sh` location configurable
