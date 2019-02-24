@@ -1,6 +1,10 @@
-variable "region" {}
+variable "region" {
+  description = "AWS region"
+}
 
-variable "name" {}
+variable "name" {
+  description = "Namespace"
+}
 
 variable "cidr_blocks" {
   type = "list"
